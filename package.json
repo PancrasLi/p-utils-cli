@@ -1,14 +1,14 @@
 {
   "name": "p-utils-cli",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "files": [
     "dist",
     "index.d.ts"
   ],
-  "main": "./dist/counter.umd.cjs",
-  "module": "./dist/counter.js",
+  "main": "./dist/p-utils.umd.cjs",
+  "module": "./dist/p-utils.js",
   "types": "./index.d.ts",
   "exports": {
     "types": "./index.d.ts",
@@ -17,7 +17,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "fix-memory-limit": "cross-env LIMIT=4096 increase-memory-limit"
   },
   "devDependencies": {
     "vite": "^5.0.0"
