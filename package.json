@@ -1,8 +1,9 @@
 {
   "name": "p-utils-cli",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.7",
   "type": "module",
+  "license": "MIT",
   "files": [
     "dist",
     "index.d.ts"
