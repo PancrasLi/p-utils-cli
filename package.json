@@ -2,12 +2,22 @@
   "name": "p-utils-cli",
   "private": false,
   "version": "1.0.7",
+  "description": "一个常用工具库集合",
   "type": "module",
   "license": "MIT",
   "files": [
     "dist",
     "index.d.ts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PancrasLi/p-utils-cli"
+  },
+  "author": {
+    "name": "李鹏杰",
+    "email": "dev@pancrasli.com",
+    "url": "https://blog.pancrasli.com"
+  },
   "main": "./dist/p-utils.umd.cjs",
   "module": "./dist/p-utils.js",
   "types": "./index.d.ts",
